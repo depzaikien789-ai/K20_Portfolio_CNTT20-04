@@ -1,4 +1,4 @@
-# Portfolio v7 - Phan Anh Tài
+# Portfolio v7 - Nguyễn Trung Kiên
 
 **Thông tin sinh viên:**
 - Họ và tên: nguyentrungkien
