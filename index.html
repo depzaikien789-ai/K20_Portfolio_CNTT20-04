@@ -1,90 +1,56 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio V8 | FIT4014</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - nguyentrungkien</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-  <div class="container nav">
-    <a class="logo" href="#home">MY PORTFOLIO</a>
-    <nav aria-label="Điều hướng chính">
-      <a href="#home">Trang chủ</a><a href="#about">Giới thiệu</a>
-      <a href="#skills">Kỹ năng</a><a href="#projects">Sản phẩm</a>
-      <a href="#evidence">Minh chứng</a><a href="#contact">Liên hệ</a>
-    </nav>
-  </div>
-</header>
-<main>
-<section id="home" class="hero">
-  <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">FIT4014 · PORTFOLIO V8</p>
-      <h1>Xin chào!<br>Tôi là <span>[nguyentrungkien]</span></h1>
-      <p class="lead">Sinh viên ngành Công nghệ thông tin tại Trường Đại học Đại Nam. Đây là portfolio ghi lại quá trình học tập, kỹ năng và sản phẩm của tôi.</p>
-      <a class="button" href="#projects">Xem sản phẩm</a>
-    </div>
-    <aside class="profile">
-      <img class="avatar" src="assets/avatar.jpg" alt="Ảnh đại diện" width="100" height="100">
-      <h2>[nguyentrungkien]</h2><p>Sinh viên CNTT</p>
-      <hr><p>MSSV: [2071020109]</p><p>Lớp: [CNTT20-04]</p>
-    </aside>
-  </div>
-</section>
-<section id="about" class="section">
-  <div class="container">
-    <p class="eyebrow">01 / ABOUT</p><h2>Giới thiệu bản thân</h2>
-    <div class="panel">
-      <p>Tôi là sinh viên ngành Công nghệ thông tin, yêu thích công nghệ, lập trình và thiết kế website.</p>
-      <p>Mục tiêu của tôi là củng cố kiến thức nền tảng, phát triển kỹ năng lập trình và hoàn thiện các sản phẩm học tập.</p>
-    </div>
-  </div>
-</section>
-<section id="skills" class="section tinted">
-  <div class="container">
-    <p class="eyebrow">02 / SKILLS</p><h2>Kỹ năng</h2>
-    <div class="grid four">
-      <article class="card"><h3>HTML5</h3><p>Xây dựng cấu trúc trang web.</p></article>
-      <article class="card"><h3>CSS3</h3><p>Thiết kế giao diện và responsive.</p></article>
-      <article class="card"><h3>GitHub</h3><p>Quản lý mã nguồn, triển khai web.</p></article>
-      <article class="card"><h3>AI</h3><p>Ứng dụng AI trong học tập có kiểm chứng.</p></article>
-    </div>
-  </div>
-</section>
-<section id="projects" class="section">
-  <div class="container">
-    <p class="eyebrow">03 / PROJECTS</p><h2>Sản phẩm học tập</h2>
-    <div class="grid three">
-      <article class="project"><div class="project-number">01</div><h3>Portfolio cá nhân</h3><p>Website giới thiệu bản thân bằng HTML và CSS.</p></article>
-      <article class="project"><div class="project-number">02</div><h3>Bài thực hành web</h3><p>Các bài tập giao diện trong học phần FIT4014.</p></article>
-      <article class="project"><div class="project-number">03</div><h3>Hồ sơ học tập</h3><p>Tổng hợp tiến trình và sản phẩm học tập.</p></article>
-    </div>
-  </div>
-</section>
-<section id="evidence" class="section tinted">
-  <div class="container">
-    <p class="eyebrow">04 / TEST EVIDENCE</p><h2>Bảng minh chứng kiểm tra</h2>
-    <p class="note">Hãy cập nhật kết quả sau khi tự kiểm tra website thực tế.</p>
-    <div class="table-wrap"><table>
-      <thead><tr><th>STT</th><th>Việc đã thử</th><th>Kết quả</th><th>Ghi chú</th></tr></thead>
-      <tbody>
-        <tr><td>1</td><td>Mở trang web bằng trình duyệt</td><td>[Đạt]</td><td>[cho ra trang web]</td></tr>
-        <tr><td>2</td><td>Kiểm tra giao diện trên màn hình nhỏ</td><td>[Đạt]</td><td>[thanh cong]</td></tr>
-        <tr><td>3</td><td>Kiểm tra các liên kết điều hướng</td><td>[Đạt]</td><td>[tot]</td></tr>
-      </tbody>
-    </table></div>
-  </div>
-</section>
-<section id="contact" class="section contact">
-  <div class="container">
-    <p class="eyebrow">05 / CONTACT</p><h2>Liên hệ</h2>
-    <p>Email: <div >depzaikien789@gmail.com</div></p><p>GitHub: <a href="https://github.com/depzaikien789-ai/">[https://github.com/depzaikien789-ai]</a></p>
-    <p>Trường Đại học Đại Nam</p>
-  </div>
-</section>
-</main>
-<footer><div class="container">© 2026 [nguyentrungkien] · FIT4014 · Portfolio V8</div></footer>
+    <header class="navbar">
+        <div class="logo">nguyentrungkien</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero">
+        <div class="hero-content">
+            <h1>Cháo bạn, tôi là nguyentrungkien</h1>
+            <p>MSSV: 2071020109 | Lớp: 20-04</p>
+            <p>Sinh viên Khoa CNTT - Học phần: Thiết kế Web và triển khai hệ thống phần mềm (FIT4014)</p>
+            <a href="#projects" class="btn">Xem Dự Án</a>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Dự Án Cá Nhân</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio v7</h3>
+                <p>Website cá nhân hoàn thiện, tối ưu hóa giao diện responsive và triển khai trên GitHub Pages.</p>
+                <span class="tag">HTML5/CSS3</span>
+            </div>
+            <div class="project-card">
+                <h3>Hệ thống Quản lý Phần mềm</h3>
+                <p>Bài tập lớn môn Thiết kế Web và Triển khai Hệ thống Phần mềm.</p>
+                <span class="tag">Web App</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Liên Hệ</h2>
+        <p>Email: depzaikien789@gmail.com</p>
+        <p>GitHub Repo: <a href="https://github.com/depzaikien789-ai">github.com/phananhtai/portfolio-v7</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 nguyentrungkien - 2071020109 - Lớp 20-04. FIT4014.</p>
+    </footer>
 </body>
 </html>
