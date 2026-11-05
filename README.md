@@ -1,46 +1,30 @@
-# Portfolio v7 - Nguyễn Trung Kiên
+# FIT4014 – Portfolio V8
 
-**Thông tin sinh viên:**
-- Họ và tên: nguyentrungkien
-- Mã sinh viên: 2071020109
-- Lớp: 20-04
-- Học phần: Thiết kế Web và triển khai hệ thống phần mềm – FIT4014
+## Demo
+URL Demo: https://[nguyentrungkien].github.io/[[repository](https://github.com/depzaikien789-ai)]/
 
----
+## Cách mở
+1. Tải hoặc clone repository về máy.
+2. Mở thư mục bằng Visual Studio Code.
+3. Mở `index.html` bằng Live Server hoặc trình duyệt.
+4. Thay nội dung trong ngoặc vuông bằng thông tin của bạn.
+5. Kiểm tra giao diện và các liên kết.
 
-## 1. Thông tin Triển khai
-- **Link Repository:** `https://github.com/depzaikien789-ai/K20-thietkeweb.git`
-- **URL GitHub Pages:** `https://github.com/depzaikien789-ai/K20-thietkeweb.git`
-- **Nguồn xuất bản:** Nhánh `main` / Thư mục `/ (root)`
-- **SHA bản cuối đã kiểm chứng:** `a1b2c3d4e5f67890abcdef1234567890abcdef12`
+## Công nghệ
+- HTML5
+- CSS3
+- Responsive Web Design
+- GitHub Pages
 
----
+## Cấu trúc
+- `index.html`: nội dung website.
+- `style.css`: định dạng giao diện.
+- `README.md`: hướng dẫn.
+- `CHANGELOG.md`: lịch sử phiên bản.
+- `AI_LOG.md`: ghi nhận sử dụng AI.
 
-## 2. Cấu trúc thư mục
-```
-.
-├── index.html          # Trang chủ chính
-├── css/
-│   └── style.css       # File định dạng giao diện CSS
-├── assets/             # Hình ảnh và tài nguyên bài làm
-├── README.md           # Hướng dẫn và tổng quan hồ sơ
-├── AI_LOG.md           # Khai báo và minh chứng sử dụng AI
-└── RELEASE_NOTES.md    # Mô tả phiên bản v7 và nhật ký thay đổi
-```
-
----
-
-## 3. Cách chạy Local và Kiểm tra
-1. Tải bộ mã nguồn hoặc giải nén file `Portfolio_v7_nguyentrungkien_2071020109.zip`.
-2. Mở file `index.html` trực tiếp bằng trình duyệt web bất kỳ (Chrome, Edge, Firefox).
-3. Kiểm tra các mục: Giới thiệu, Dự án, Liên hệ và các hiệu ứng Responsive khi thu nhỏ màn hình.
-
----
-
-## 4. Checklist Kiểm chứng (Local - Repo - URL)
-| Nội dung | Kết quả thực tế | Căn cứ / Minh chứng |
-| :--- | :--- | :--- |
-| **Local & Repository** | Đồng bộ bản commit cuối, không còn file thừa chưa commit. | Match SHA `a1b2c3d4` trên GitHub Repo |
-| **Bản triển khai** | GitHub Pages build thành công từ nhánh `main`. | Status: Success trên GitHub Actions |
-| **URL, CSS, Ảnh** | URL mở độc lập (trình duyệt ẩn danh), CSS và đường dẫn nạp 100% đúng. | Request Status `200 OK` cho tất cả tài nguyên |
-| **Đồng bộ phiên bản** | Giao diện v7 khớp hoàn toàn giữa Local và URL GitHub Pages. | Đối chiếu hiển thị thông tin nguyentrungkien - 2071020109 |
+## GitHub Pages
+1. Vào repository GitHub → Settings → Pages.
+2. Chọn branch `main` và thư mục `/root`.
+3. Nhấn Save, chờ website được triển khai.
+4. Sao chép URL Pages vào phần Demo.
