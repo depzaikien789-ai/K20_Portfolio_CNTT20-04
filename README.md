@@ -1,46 +1,72 @@
-# Portfolio v7 - nguyentrungkien
+# FIT4014 – Portfolio V8
 
-**Thông tin sinh viên:**
-- Họ và tên: nguyentrungkien
-- Mã sinh viên: 2071020109
-- Lớp: 20-04
-- Học phần: Thiết kế Web và triển khai hệ thống phần mềm – FIT4014
+## 1. Thông tin dự án
 
----
+- Họ và tên: Nguyễn Trung Kiên
+- MSSV: 2071020109
+- Lớp: CNTT20-04
+- Học phần: FIT4014 – Thiết kế Web và triển khai hệ thống phần mềm
+- Phiên bản: V8
 
-## 1. Thông tin Triển khai
-- **Link Repository:** `https://github.com/depzaikien789-ai`
-- **URL GitHub Pages:** `https://github.com/depzaikien789-ai/`
-- **Nguồn xuất bản:** Nhánh `main` / Thư mục `/ (root)`
-- **SHA bản cuối đã kiểm chứng:** `a1b2c3d4e5f67890abcdef1234567890abcdef12`
+## 2. Demo website
 
----
+- GitHub Repository:
+  https://github.com/depzaikien789-ai/2071020109
 
-## 2. Cấu trúc thư mục
-```
-.
-├── index.html          # Trang chủ chính
-├── css/
-│   └── style.css       # File định dạng giao diện CSS
-├── assets/             # Hình ảnh và tài nguyên bài làm
-├── README.md           # Hướng dẫn và tổng quan hồ sơ
-├── AI_LOG.md           # Khai báo và minh chứng sử dụng AI
-└── RELEASE_NOTES.md    # Mô tả phiên bản v7 và nhật ký thay đổi
-```
+- GitHub Pages:
+  https://depzaikien789-ai.github.io/2071020109/
 
----
+## 3. Cách mở website
 
-## 3. Cách chạy Local và Kiểm tra
-1. Tải bộ mã nguồn hoặc giải nén file 
-2. Mở file `index.html` trực tiếp bằng trình duyệt web bất kỳ (Chrome, Edge, Firefox).
-3. Kiểm tra các mục: Giới thiệu, Dự án, Liên hệ và các hiệu ứng Responsive khi thu nhỏ màn hình.
+### Cách 1: Mở trực tiếp trên GitHub Pages
 
----
+1. Truy cập URL GitHub Pages ở trên.
+2. Chờ website tải hoàn tất.
+3. Sử dụng menu để xem các phần Trang chủ, Giới thiệu,
+   Kỹ năng, Sản phẩm, Minh chứng và Liên hệ.
 
-## 4. Checklist Kiểm chứng (Local - Repo - URL)
-| Nội dung | Kết quả thực tế | Căn cứ / Minh chứng |
-| :--- | :--- | :--- |
-| **Local & Repository** | Đồng bộ bản commit cuối, không còn file thừa chưa commit. | Match SHA `a1b2c3d4` trên GitHub Repo |
-| **Bản triển khai** | GitHub Pages build thành công từ nhánh `main`. | Status: Success trên GitHub Actions |
-| **URL, CSS, Ảnh** | URL mở độc lập (trình duyệt ẩn danh), CSS và đường dẫn nạp 100% đúng. | Request Status `200 OK` cho tất cả tài nguyên |
-| **Đồng bộ phiên bản** | Giao diện v7 khớp hoàn toàn giữa Local và URL GitHub Pages. | Đối chiếu hiển thị thông tin nguyentrungkien - 2071020109 |
+### Cách 2: Mở bằng Visual Studio Code
+
+1. Clone repository về máy.
+2. Mở thư mục dự án bằng Visual Studio Code.
+3. Mở file index.html.
+4. Chạy bằng Live Server hoặc trình duyệt.
+5. Kiểm tra giao diện và các liên kết điều hướng.
+
+## 4. Công nghệ sử dụng
+
+- HTML5
+- CSS3
+- Responsive Web Design
+- GitHub
+- GitHub Pages
+
+## 5. Cấu trúc dự án
+
+- index.html: Nội dung website Portfolio.
+- style.css: Giao diện và thiết kế responsive.
+- README.md: Hướng dẫn sử dụng dự án.
+- CHANGELOG.md: Lịch sử thay đổi phiên bản.
+- AI_LOG.md: Nhật ký sử dụng AI.
+- docs/: Thư mục lưu tài liệu và minh chứng Lab 8.
+
+## 6. Triển khai GitHub Pages
+
+1. Truy cập repository GitHub.
+2. Chọn Settings.
+3. Chọn Pages.
+4. Chọn Deploy from a branch.
+5. Chọn branch main.
+6. Chọn thư mục /(root).
+7. Nhấn Save.
+8. Kiểm tra website sau khi triển khai.
+
+## 7. Kiểm thử
+
+Các nội dung cần kiểm tra:
+
+- Website có mở được trên GitHub Pages không.
+- Giao diện có hiển thị trên điện thoại không.
+- Menu điều hướng có hoạt động không.
+- Ảnh và CSS có tải đúng không.
+- README và CHANGELOG có đầy đủ không
